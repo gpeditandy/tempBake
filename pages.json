@@ -1,0 +1,1340 @@
+{
+	"pages": [{
+			"path": "pages/tabBar/workbench/workbench",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},{
+            "path" : "pages/login/login",
+            "style" : {
+                "app-plus":{
+                	"titleNView":false
+                }
+            }
+            
+        },{
+			"path": "pages/tabBar/msg/msg",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},{
+			"path": "pages/tabBar/service/service",
+			"style": {
+				"navigationBarTitleText": "烟农服务",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},{
+			"path": "pages/tabBar/addressBook/addressBook",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},{
+			"path": "pages/tabBar/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+	    {
+            "path" : "pages/yumiao/yumiao",
+            "style" : {
+                "navigationBarTitleText": "育苗管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/workOrder/create",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "创建工单",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/agriculture",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "农时提醒",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/progress",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "播种农时生产进度",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/approval",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "内容审批",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/examine_detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "审批明细",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/launch_gd",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "发起工单",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/launch_detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "工单详情",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/speed_detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "进度明细",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/download",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "下载",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/gd_notice",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "工单通知",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/sp_notice",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "审批通知",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/sp_notice_detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "审批",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/reply_gd",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "回复工单",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/approval_detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "审批",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/ns_calendar",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "农时日历",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/db_matter",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "待办事项",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/report",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "向分公司汇报",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/sponsor_gd",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我发起的工单",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/report_detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "汇报详情",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/workOrder/reportList",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "工作汇报",
+				"navigationBarBackgroundColor":"#fff",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/monitor/monitor",
+            "style" :{
+                "navigationBarTitleText": "远程育苗监控",
+				"navigationBarBackgroundColor":"#fff",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/ymContrl/ymContrl",
+            "style" : {
+                "navigationBarTitleText": "育苗环境控制",
+				"navigationBarBackgroundColor":"#ffffff",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						},{
+							"color":"#007bff",
+							"colorPressed":"#fd597c",
+							"float":"right",
+							"fontSize":"16px",
+							"text":"提交",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/statistics/statistics",
+            "style" : {
+                "navigationBarTitleText": "统计图表",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+		,{
+		    "path" : "pages/time-view/time-view",
+		    "style" : {
+		        "navigationBarTitleText": "摄像头",
+				"navigationBarBackgroundColor":"#FFFFFF",
+		        "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						},{
+							"color":"#007bff",
+							"colorPressed":"#fd597c",
+							"float":"right",
+							"fontSize":"16px",
+							"text":"切换",
+							"width":"60px"
+						}]
+					}
+				}
+				// "subNVues":[{
+				// 	"id":"noticeVideo",
+				// 	"path":"pages/time-view/subNVue/onVideo",
+				// 	"type": "navigationBar",
+				// 	"style":{
+				// 		"position":"absolute",
+				// 		"width":"100%",
+				// 		"height":"200px",
+				// 		"top":"73px",
+				// 		"background":"transparent"
+				// 	}
+				// }]
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/serviceMeCan/serviceMeCan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我能提供的服务",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/serviceContent/serviceContent",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我要发布招人需求",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/recruitHistory/recruitHistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "需求记录",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/serviceHistory/serviceHistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务记录",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/recruitHistoryDetail/recruitHistoryDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "需求详情",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/serviceHistoryDetail/serviceHistoryDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务详情",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/irrigation/irrigation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "远程滴灌监控",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/bakeList/bakeList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "烘烤列表",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/fertilizer/fertilizer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "起垄配肥",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/injection/injection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "移栽注水",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/greenControl/greenControl",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绿色防控",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/growthMonitoring/growthMonitoring",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "长势监测",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/intellectCollect/intellectCollect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智能采收",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/irrigationControl/irrigationControl",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "滴灌控制器设置",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						},{
+							"color":"#007bff",
+							"colorPressed":"#fd597c",
+							"float":"right",
+							"fontSize":"16px",
+							"text":"提交",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/irrigationRecords/irrigationRecords",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "滴灌统计",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/irrigationDetail/irrigationDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "滴灌统计",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/deviceDetail/deviceDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设备详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/houseEdit/houseEdit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑烤房信息",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/historyBake/historyBake",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "历史烘烤",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/historyBakeDetail/historyBakeDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "烤次详情",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/craftLine/craftLine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "工艺曲线",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/craftLineEdite/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "编辑工艺曲线",
+				"navigationBarBackgroundColor":"#FFFFFF",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/craftLinePreview/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "工艺曲线预览",
+				"navigationBarBackgroundColor":"#FFFFFF",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+        {
+            "path" : "pages/tobaccoInfo/tobaccoInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "鲜烟信息",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bakeStatus/bakeStatus",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "烟叶烘烤状态",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/warningParams/warningParams",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "告警参数",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/warningParamsResize/warningParamsResize",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "告警参数设置",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/warningParamsResize2/warningParamsResize2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "告警参数设置",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fertilizerCalc/fertilizerCalc",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "配肥计算器",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedBack/feedBack",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "问题咨询",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/announcement/announcement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "系统公告",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/knowledgeLib/knowledgeLib",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "知识库",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/knowledgeDetail/knowledgeDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "知识库详情",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/announcementDetail/announcementDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公告详情",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fertilizerDetail/fertilizerDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "方案详情",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/injectionRecords/injectionRecords",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注水统计",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/imageCollectionControl/imageCollectionControl",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图像采集器控制",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/collectionSuggest/collectionSuggest",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "采收建议",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/pestSituation/pestSituation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "虫情监控仪控制",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						},{
+							"color":"#007bff",
+							"colorPressed":"#fd597c",
+							"float":"right",
+							"fontSize":"16px",
+							"text":"提交",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/pestKill/pestKill",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "杀虫终端控制",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						},{
+							"color":"#007bff",
+							"colorPressed":"#fd597c",
+							"float":"right",
+							"fontSize":"16px",
+							"text":"提交",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/pestSituationStatistics/pestSituationStatistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "虫情监控仪统计",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/growthStatistics/growthStatistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "长势监控仪统计",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/floodDetail/floodDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注水详情",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/aboutTobacco/aboutTobacco",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧烟叶",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/collectContrl/collectContrl",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智能采收控制",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/collectStatistics/collectStatistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智能采收监控仪统计",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/uncheck/uncheck",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "需求审核列表",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/uncheckSupply/uncheckSupply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "供应审核列表",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/waterControl/waterControl",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注水量控制",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/fertilizerControl/fertilizerControl",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "施肥控制",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/fertilizerStatistic/fertilizerStatistic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "施肥统计",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/fertilizerLogsDetail/fertilizerLogsDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "施肥详情",
+                "navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+                "app-plus":{
+                	"titleNView":{
+                		"buttons":[{
+                			"color":"#333333",
+                			"colorPressed":"#fd597c",
+                			"float":"left",
+                			"fontSize":"20px",
+                			"fontSrc":"/static/iconfont.ttf",
+                			"text":"\ue6aa",
+                			"width":"60px"
+                		}]
+                	}
+                }
+            }
+            
+        }
+        ,{
+            "path" : "pages/windControl/windControl",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "风机控制",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						},{
+							"color":"#007bff",
+							"colorPressed":"#fd597c",
+							"float":"right",
+							"fontSize":"16px",
+							"text":"提交",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/windStatistics/windStatistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "风机运转统计",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/windDetail/windDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "风机详情",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/cameraImageList/cameraImageList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "抓拍记录",
+				"navigationBarBackgroundColor":"#FFFFFF",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#333333",
+							"colorPressed":"#fd597c",
+							"float":"left",
+							"fontSize":"20px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue6aa",
+							"width":"60px"
+						}]
+					}
+				}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "智慧烟草",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+			"color":"#333333",
+			"selectedColor":"#1578ED",
+			"backgroundColor":"#FFFFFF",
+			"borderStyle":"white",
+			"list":[{
+				"pagePath":"pages/tabBar/msg/msg",
+				"text":"消息",
+				"iconPath":"static/tabbar/index.png",
+				"selectedIconPath":"static/tabbar/indexed.png"
+			},{
+				"pagePath":"pages/tabBar/service/service",
+				"text":"服务",
+				"iconPath":"static/tabbar/news.png",
+				"selectedIconPath":"static/tabbar/newsed.png"
+			},{
+				"pagePath":"pages/tabBar/workbench/workbench",
+				"text":"工作台",
+				"iconPath":"static/tabbar/paper.png",
+				"selectedIconPath":"static/tabbar/papered.png"
+			},{
+				"pagePath":"pages/tabBar/addressBook/addressBook",
+				"text":"通讯录",
+				"iconPath":"static/tabbar/contact.png",
+				"selectedIconPath":"static/tabbar/contacted.png"
+			},{
+				"pagePath":"pages/tabBar/my/my",
+				"text":"我的",
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/homeed.png"
+			}]
+		}
+}

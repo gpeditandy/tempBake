@@ -1,0 +1,70 @@
+.popup {
+	width: 100vw;
+	background: #fff;
+	border-top-left-radius: 24rpx;
+	border-top-right-radius: 24rpx;
+
+	.popup-header {
+		display: flex;
+		border-bottom: 2rpx solid #EEEEEE;
+		position: relative;
+		padding: 40rpx;
+
+		.tit {
+			flex: 1;
+			font-size: 32rpx;
+			line-height: 1;
+			text-align: center;
+		}
+		.iconfont {
+			line-height: 1;
+			position: absolute;
+			right: 30rpx;
+			top: 50%;
+			transform: translate(0, -50%);
+			color: #909399;
+			font-size: 32rpx;
+		}
+	}
+
+	.popup-body {
+		height: calc(100% - 250rpx);
+		&.safe-area {
+			height: calc(100% - 270rpx);
+		}
+		.store-popup{
+			height: 80%;
+		}
+	}
+
+	.popup-footer {
+		height: 120rpx;
+		display: flex;
+
+		.confirm-btn {
+			width: 50%;
+			height: 80rpx;
+			line-height: 80rpx;
+			text-align: center;
+			margin: 20rpx 40rpx 40rpx;
+			border-radius: 40rpx;
+			font-size: 28rpx;
+		}
+		
+		.color-cancel-bg {
+			background-color: #fff;
+			border: 2rpx solid #eee;
+			color: #000;
+		}
+		
+		.color-base-bg {
+			color: #fff;
+			background-color: #0977FF;
+		}
+
+		&.bottom-safe-area {
+			padding-bottom: constant(safe-area-inset-bottom);
+			padding-bottom: env(safe-area-inset-bottom);
+		}
+	}
+}
